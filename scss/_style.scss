@@ -177,9 +177,6 @@ section{
                     }
                 }
             }
-            & > img{
-
-            }
         }
     }
     .section4{
@@ -240,8 +237,180 @@ section{
                         font-family: $inter-font;
                         color: #101D2D;
                     }
+                    
                 }
             }
         }
+    }
+    .section5{
+        background-color: white;
+        .section5-div{
+            width: 75%;
+            padding-top: 86px;
+            padding-bottom: 82px;
+            margin: 0 auto;
+            .section5-title-textbox{
+                width: 625px;
+                margin: 0 auto;
+                margin-bottom: 113px;
+                & > h3{
+                    text-align: center;
+                    font-family: $playfair-font;
+                    font-size: 44px;
+                    margin-bottom: 5px;
+                    line-height: 54px;
+                }
+                & > p{
+                    text-align: center;
+                    font-family: $inter-font;
+                    font-size: 18px; 
+                    line-height: 30px;
+                }
+            }
+            .section5-main-content{
+                width: 544px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                & > img{
+                    margin-right: 27px;
+                }
+                .section5-text-list{
+                    width: 470px;
+                    .section5-text-list-card{
+                        width: 470px;
+                        margin-bottom: 67px;
+                        & > h4{
+                            font-size: 14px;
+                            font-family: $inter-font;
+                            line-height: 22px;
+                            margin-bottom: 7px;
+                            color: #95A4B4;
+                        }
+                        & > p{
+                            font-size: 24px;
+                            font-family: $inter-font;
+                            line-height: 34px;
+                            color: #101D2D;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .section6{
+        background-color: #101D2D;
+        .section6-div{
+            width: 75%;
+            margin: 0 auto;
+            padding-top: 86px;
+            padding-bottom: 80px;
+            .section6-title-textbox{
+                width: 620px;
+                margin: 0 auto;
+                margin-bottom: 80px;
+                & > h4{
+                    font-size: 44px;
+                    font-family: $playfair-font;
+                    line-height: 54px;
+                    color: #F3F5F8;
+                    margin-bottom: 5px;
+                    text-align: center;
+                }
+                & > p{
+                    color: #95A4B4;
+                    font-size: 18px;
+                    font-family: $inter-font;
+                    color: #95A4B4;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+            .section6-main-content{
+                .section6-main-content-users{
+                    width: 320px;
+                    margin: 0 auto;
+                    margin-bottom: 32px;
+                    & > p{
+                        text-align: center;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #E7ECF2;
+                        font-family: $inter-font;
+                        margin-bottom: 20px;
+                    }
+                }
+                .section6-card-list{
+                    display: flex;
+                    justify-content: space-between;
+                    .section6-cards{
+                        width: 344px;
+                        height: 578px;
+                        background-color: white;
+                        .section6-card-price{
+                            margin-left: 24px;
+                            margin-top: 16px;
+                            margin-bottom: 45px;
+                            & > img{
+                                margin-bottom: 1px;
+                            }
+                            & > p{
+                                font-size: 16px;
+                                font-family: $inter-font;
+                                line-height: 24px;
+                                color: #95A4B4;
+                            }
+                        }
+                        .section6-card-main-text{
+                            margin-left: 24px;
+                            & > h3{
+                                color: #101D2D;
+                                font-family: $inter-font;
+                                line-height: 24px;
+                                margin-bottom: 27px;
+                            }
+                            .section6-cards-main-text-list{
+                                margin-bottom: 32px;
+                                & > div{
+                                    display: flex;
+                                    & > h5{
+                                        margin-top: 14px;
+                                        margin-bottom: 5px;
+                                        color: #627183;
+                                        font-family: $inter-font;
+                                        
+                                    }
+                                    & > img{
+                                        margin-right: 13px;
+                                        height: 24px;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        & > h3{
+                            font-size: 16px;
+                            width: 296px;
+                            height: 48px;
+                            padding-left: 81px;
+                            padding-top: 12px;
+                            color: white;
+                            background-color: #2174EA;
+                            font-family: $inter-font;
+                            margin: 0 auto;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    background-color: #101D2D;
+    .footer-div{
+        
     }
 }
