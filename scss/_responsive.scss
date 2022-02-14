@@ -1,3 +1,18 @@
+@media (max-width: 1600px){
+    .section3-main-content > img{
+        margin-left: 0% !important;
+    }
+}
+@media (max-width: 1366px){
+    .section3-main-content > img{
+        margin-left: -13% !important;
+    }
+}
+@media (max-width: 1150px){
+    .section3-main-content > img{
+        margin-left: -18% !important;
+    }
+}
 @media (max-width: 480px){
     .header1{
         height: 80px;
