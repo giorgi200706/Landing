@@ -1,0 +1,323 @@
+@media (max-width: 480px){
+    .header1{
+        height: 80px;
+        width: 100vw;
+        position: fixed;
+        & > div{
+            width: 75%;
+            height: 36px;
+            margin: 0 auto;
+            margin-top: 22px;
+            display: flex;
+            .header-list{
+                display: none;
+            }
+            .burger-bar-icon{
+                display: block;
+                margin-right: 40px;
+                height: 25px;
+            }
+        }
+    }
+    .section-first{
+        width: 100%;
+        height: auto;
+        .section1{
+            .section1-background-image{
+                width: 100%;
+                height: 950px;
+            }
+            .section1-container{
+                width: 75%;
+                flex-direction: column;
+                .section1-container-textbox{
+                    width: 300px;
+                    margin: 0 auto;
+                    & > h4{
+                        font-size: 44px;
+                        line-height: 54px;
+                        margin-bottom: 5px;
+                        width: 290px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+                    & > p{
+                        line-height: 30px;
+                        width: 290px;
+                        margin: 0 auto;
+                        text-align: center;
+                        margin-bottom: 65px;
+                    }
+                    & > div{
+                        flex-direction: column;
+                        margin: 0 auto;
+                        & > h5{
+                            margin: 0 auto;
+                            width: 288px;
+                            margin-bottom: 12px;
+                            padding-left: 79px;
+                        }
+                        & > h6{
+                            margin: 0 auto;
+                            width: 288px;
+                            margin-bottom: 12px;
+                            padding-left: 101px;
+                        }
+                    }
+                }
+                & > img{
+                    width: 299px;
+                    border-radius: 4px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .section2{
+            width: 90%;
+            margin: 0 auto;
+            & > div{
+                width: 288px;
+                margin: 0 auto;
+                margin-bottom: 35px;
+            }
+        }
+        .section3{
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 49px;
+            .section3-title-textbox{
+                width: 288px;
+                margin: 0 auto;
+                & > h3{
+                    font-size: 32px;
+                    margin-bottom: 8px;
+                }
+                & > p{
+                    margin-bottom: 81px;
+                }
+            }
+            .section3-main-content{
+                margin: 0 auto;
+                .section3-card-list{
+                    width: 160px;
+                    margin: 0 auto;
+                    flex-direction: column;
+                    margin-bottom: 53px;
+                    .section3-cards{
+                        width: 160px;
+                        margin-bottom: 28px;
+                        & > img{
+                            transform: translate(52px);
+                            margin-bottom: 12px;
+                        }
+                        & > h5{
+                            font-family: $inter-font;
+                            text-align: center;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                & > img{
+                    width: 288px;
+                    margin: 0 auto;
+                    transform: translatex(25%);
+                }
+            }
+        }
+        .section4{
+            .section4-hello{
+                width: 90%;
+                margin: 0 auto;
+                .section4-title-textbox{
+                    width: 288px;
+                    margin: 0 auto;
+                    & > h3{
+                        font-size: 32px;
+                        margin-bottom: 8px;
+                    }
+                }
+                .section4-main-content{
+                    flex-direction: column;
+                    margin: 0 auto;
+                    .section4-card{
+                        width: 288px;
+                        height: 558px;
+                        margin: 0 auto;
+                        margin-bottom: 16px;
+                        & > img{
+                            width: 288px;
+                        }
+                        & > h5{
+                            width: 241px;
+                            margin: 0 auto;
+                            margin-bottom: 44px;
+                            text-align: center;
+                        }
+                        & > p{
+                            width: 241px;
+                            margin: 0 auto;
+                            margin-bottom: 20px;
+                        }
+                        .section4-card-minitext{
+                            width: 241px;
+                            font-size: 16px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .section5{
+            .section5-div{
+                width: 90%;
+                margin: 0 auto;
+                .section5-title-textbox{
+                    width: 291px;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+                    & > h3{
+                        font-size: 32px;
+                        margin-bottom: 8px;
+                        line-height: 42px;
+                    }
+                }
+                .section5-main-content{
+                    width: 288px;
+                    margin: 0 auto;
+                    & > img{
+                        margin-right: 27px;
+                        margin-left: 3px;
+                        height: 1000px;
+                    }
+                    .section5-text-list{
+                        width: 259px;
+                        .section5-text-list-card{
+                            width: 259px;
+                            margin-bottom: 49px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .section6{
+            background-color: #101D2D;
+            .section6-div{
+                width: 90%;
+                margin: 0 auto;
+                .section6-title-textbox{
+                    width: 288px;
+                    margin: 0 auto;
+                    margin-bottom: 51px;
+                    & > h4{
+                        font-size: 32px;
+                        line-height: 42px;
+                        margin-bottom: 8px;
+                    }
+                }
+                .section6-main-content{
+                    width: 288px;
+                    margin: 0 auto;
+                    .section6-main-content-users{
+                        width: 288px;
+                        margin: 0 auto;
+                        margin-bottom: 32px;
+                    }
+                    .section6-card-list{
+                        flex-direction: column;
+                        width: 288px;
+                        margin: 0 auto;
+                        .section6-cards{
+                            width: 288px;
+                            height: 567px;
+                            margin: 0 auto;
+                            margin-bottom: 26px;
+                            .section6-card-main-text{
+                                margin-left: 24px;
+                                & > h3{
+                                    font-size: 16px;
+                                }
+                                .section6-cards-main-text-list{
+                                    margin: 0 auto;
+                                    margin-bottom: 32px;
+                                    & > div{
+                                        display: flex;
+                                        & > img{
+                                            margin-right: 6px;
+                                        }
+                                    }
+                                    & > img{
+                                        width: 250px;
+                                    }
+                                }
+                            }
+                            & > h3{
+                                width: 240px;
+                                padding-left: 67px;
+                                padding-top: 13px;
+                                margin: 0 auto;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer1{
+        width: 100vw;
+        .footer-div{
+            width: 90%;
+            margin: 0 auto;
+            .footer-main-content{
+                width: 288px;
+                margin: 0 auto;
+                height: 244px;
+                & > div{
+                    width: 215px;
+                    padding-top: 47px;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    & > h4{
+                        font-size: 24px;
+                        text-align: center;
+                        margin-bottom: 45px;
+                    }
+                    & > input{
+                        width: 240px;
+                        border: 0px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+            .footer-bottom{
+                width: 288px;
+                margin: 0 auto;
+                .footer-bottom-logos{
+                    flex-direction: column;
+                    & > div{
+                        width: 120px;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 auto;
+                    }
+                    & > img{
+                        width: 40px;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+                }
+                .footer-bottom-help-list{
+                    flex-direction: column;
+                    h5{
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                    }
+                    & > div{
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
