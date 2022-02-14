@@ -198,6 +198,7 @@ section .section1 .section1-container > img {
 
 section .section2 {
   width: 75%;
+  max-width: 1080px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,15 +283,20 @@ section .section3 .section3-main-content .section3-card-list .section3-cards {
 }
 
 section .section3 .section3-main-content .section3-card-list .section3-cards > img {
+  -webkit-transform: translate(52px);
+          transform: translate(52px);
   margin-bottom: 12px;
-  -webkit-transform: translateX(52px);
-          transform: translateX(52px);
 }
 
 section .section3 .section3-main-content .section3-card-list .section3-cards > h5 {
   font-family: "Inter", sans-serif;
   text-align: center;
   font-size: 18px;
+}
+
+section .section3 .section3-main-content > img {
+  -webkit-transform: translate(15%);
+          transform: translate(15%);
 }
 
 section .section4 {
@@ -499,6 +505,8 @@ section .section6 .section6-div .section6-main-content .section6-card-list {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 section .section6 .section6-div .section6-main-content .section6-card-list .section6-cards {
@@ -574,5 +582,105 @@ section .section6 .section6-div .section6-main-content .section6-card-list .sect
 footer {
   width: 100%;
   background-color: #101D2D;
+  padding-bottom: 62px;
+}
+
+footer .footer-div {
+  width: 75%;
+  margin: 0 auto;
+}
+
+footer .footer-div .footer-main-content {
+  width: 100%;
+  margin: 0 auto;
+  height: 180px;
+  background-color: #135CC5;
+  margin-top: 4940px;
+}
+
+footer .footer-div .footer-main-content > div {
+  width: 91.1%;
+  margin: 0 auto;
+  padding-top: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-div .footer-main-content > div > h4 {
+  color: #E2EEFF;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+}
+
+footer .footer-div .footer-main-content > div > input {
+  width: 320px;
+  height: 48px;
+  color: #95A4B4;
+  background-color: white;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #707070;
+}
+
+footer .footer-div .footer-bottom {
+  padding-top: 67px;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-logos > div {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-logos > div > img {
+  height: 16px;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-logos > img {
+  height: 30px;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-help-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-help-list h5 {
+  color: #627183;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+footer .footer-div .footer-bottom .footer-bottom-help-list > div {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=global.css.map */

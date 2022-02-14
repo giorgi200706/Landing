@@ -108,6 +108,7 @@ section{
     }
     .section2{
         width: 75%;
+        max-width: 1080px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -167,8 +168,8 @@ section{
                 .section3-cards{
                     width: 160px;
                     & > img{
+                        transform: translate(52px);
                         margin-bottom: 12px;
-                        transform: translateX(52px);
                     }
                     & > h5{
                         font-family: $inter-font;
@@ -176,6 +177,9 @@ section{
                         font-size: 18px;
                     }
                 }
+            }
+            & > img{
+                transform: translate(15%);
             }
         }
     }
@@ -344,6 +348,8 @@ section{
                 .section6-card-list{
                     display: flex;
                     justify-content: space-between;
+                    max-width: 1120px;
+                    margin: 0 auto;
                     .section6-cards{
                         width: 344px;
                         height: 578px;
@@ -410,7 +416,71 @@ section{
 footer{
     width: 100%;
     background-color: #101D2D;
+    padding-bottom: 62px;
     .footer-div{
-        
+        width: 75%;
+        margin: 0 auto;
+        .footer-main-content{
+            width: 100%;
+            margin: 0 auto;
+            height: 180px;
+            background-color: #135CC5;
+            margin-top: 4940px;
+            & > div{
+                width: 91.1%;
+                margin: 0 auto;
+                padding-top: 74px;
+                display: flex;
+                justify-content: space-between;
+                & > h4{
+                    color: #E2EEFF;
+                    font-family: $playfair-font;
+                    font-size: 32px;
+                }
+                & > input{
+                    width: 320px;
+                    height: 48px;
+                    color: #95A4B4;
+                    background-color: white;
+                    padding-left: 16px;
+                    font-size: 16px;
+                    font-family: $inter-font;
+                    border: 1px solid #707070;
+                }
+            }
+        }
+        .footer-bottom{
+            padding-top: 67px;
+            .footer-bottom-logos{
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 25px;
+                & > div{
+                    width: 120px;
+                    display: flex;
+                    justify-content: space-between;
+                    & > img{
+                        height: 16px; 
+                    }
+                }
+                & > img{
+                    height: 30px;
+                }
+            }
+            .footer-bottom-help-list{
+                display: flex;
+                justify-content: space-between;
+                h5{
+                    color: #627183;
+                    font-family: $inter-font;
+                    font-size: 14px;
+                }
+                & > div{
+                    width: 280px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
     }
 }
