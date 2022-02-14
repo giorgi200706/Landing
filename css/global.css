@@ -338,6 +338,8 @@ section .section4 .section4-hello .section4-main-content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 section .section4 .section4-hello .section4-main-content .section4-card {
