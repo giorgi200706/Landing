@@ -65,7 +65,7 @@ a {
 }
 
 .header1 > div {
-  width: 1080px;
+  width: 75%;
   height: 36px;
   margin: 0 auto;
   margin-top: 22px;
@@ -301,8 +301,9 @@ a {
 }
 
 .section-first .section3 .section3-main-content > img {
-  -webkit-transform: translate(15%);
-          transform: translate(15%);
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .section-first .section4 {
@@ -712,8 +713,9 @@ a {
   }
   .header1 > div .burger-bar-icon {
     display: block;
-    margin-right: 40px;
+    margin-right: 20px;
     height: 25px;
+    margin-top: 5px;
   }
   .section-first {
     width: 100%;
@@ -826,9 +828,6 @@ a {
   }
   .section-first .section3 .section3-main-content > img {
     width: 288px;
-    margin: 0 auto;
-    -webkit-transform: translatex(25%);
-            transform: translatex(25%);
   }
   .section-first .section4 .section4-hello {
     width: 90%;
@@ -928,6 +927,10 @@ a {
     width: 288px;
     margin: 0 auto;
     margin-bottom: 32px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-main-content-users > img {
+    width: 270px;
+    margin: 0 auto;
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list {
     -webkit-box-orient: vertical;

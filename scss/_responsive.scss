@@ -14,8 +14,9 @@
             }
             .burger-bar-icon{
                 display: block;
-                margin-right: 40px;
+                margin-right: 20px;
                 height: 25px;
+                margin-top: 5px;
             }
         }
     }
@@ -119,8 +120,6 @@
                 }
                 & > img{
                     width: 288px;
-                    margin: 0 auto;
-                    transform: translatex(25%);
                 }
             }
         }
@@ -222,6 +221,10 @@
                         width: 288px;
                         margin: 0 auto;
                         margin-bottom: 32px;
+                        & > img{
+                            width: 270px;
+                            margin: 0 auto;
+                        }
                     }
                     .section6-card-list{
                         flex-direction: column;
