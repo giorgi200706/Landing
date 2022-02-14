@@ -51,6 +51,8 @@ section{
         .section1-container{
             position: absolute;
             width: 75%;
+            max-width: 1280px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             top: 160px;
