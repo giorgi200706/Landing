@@ -56,7 +56,7 @@ a {
   text-decoration: none;
 }
 
-.header1 {
+header {
   height: 80px;
   width: 100%;
   position: fixed;
@@ -64,7 +64,7 @@ a {
   z-index: 99;
 }
 
-.header1 > div {
+header > div {
   width: 75%;
   height: 36px;
   margin: 0 auto;
@@ -77,7 +77,7 @@ a {
           justify-content: space-between;
 }
 
-.header1 > div .header-list {
+header > div .header-list {
   width: 296px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,14 +87,14 @@ a {
           justify-content: space-between;
 }
 
-.header1 > div .header-list > h2 {
+header > div .header-list .a1 {
   padding-top: 7px;
   font-size: 16px;
   color: #95A4B4;
   font-family: "Inter", sans-serif;
 }
 
-.header1 > div .header-list > h3 {
+header > div .header-list .a2 {
   background-color: #2174EA;
   width: 106px;
   height: 36px;
@@ -107,7 +107,7 @@ a {
   font-weight: 500;
 }
 
-.header1 > div .burger-bar-icon {
+header > div .burger-bar-icon {
   display: none;
 }
 
@@ -691,6 +691,300 @@ a {
           justify-content: space-between;
 }
 
+.body2 {
+  width: 100%;
+}
+
+.body2 section {
+  width: 100%;
+}
+
+.body2 section .section1 {
+  position: relative;
+  padding-top: 80px;
+  margin-bottom: 110px;
+}
+
+.body2 section .section1 > img {
+  position: relative;
+  height: 660px;
+  width: 100%;
+}
+
+.body2 section .section1 > div {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 75%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.body2 section .section1 > div .section1-title-box-text {
+  width: 620px;
+  height: 131px;
+  margin: 0 auto;
+  margin-top: 166px;
+  margin-bottom: 51px;
+}
+
+.body2 section .section1 > div .section1-title-box-text > h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  line-height: 62px;
+  text-align: center;
+  color: #E7ECF2;
+}
+
+.body2 section .section1 > div .section1-card-list {
+  width: 100%;
+  height: 537px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card {
+  width: 344px;
+  height: 437px;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 14px 2px rgba(185, 185, 185, 0.75);
+          box-shadow: 0px 2px 14px 2px rgba(185, 185, 185, 0.75);
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > img {
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > p {
+  width: 298px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+  color: #627183;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > div {
+  margin: 0 auto;
+  width: 296px;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > div > img {
+  margin-bottom: 19px;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > div > div > h6 {
+  font-size: 16px;
+  color: #101D2D;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 section .section1 > div .section1-card-list .section1-card > div > div > h5 {
+  font-size: 16px;
+  color: #2174EA;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 section .section2 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.body2 section .section2 .section2-social-images {
+  margin-bottom: 86px;
+}
+
+.body2 section .section2 .section2-social-images > img {
+  width: 1080px;
+}
+
+.body2 section .section2 .section2-social-images > div {
+  margin: 0 auto;
+  width: 819px;
+  margin-top: 36px;
+  margin-bottom: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body2 section .section2 .section2-social-images > div .image-1 {
+  width: 123px;
+  height: 24px;
+}
+
+.body2 section .section2 .section2-social-images > div .image-2 {
+  width: 83px;
+  height: 30px;
+}
+
+.body2 section .section2 .section2-social-images > div .image-3 {
+  width: 125px;
+  height: 30px;
+}
+
+.body2 section .section2 .section2-social-images > div .image-4 {
+  width: 150px;
+  height: 30px;
+}
+
+.body2 section .section2 .section2-social-images > div .image-5 {
+  width: 113px;
+  height: 30px;
+}
+
+.body2 section .section2 .section2-main-content {
+  margin: 0 auto;
+}
+
+.body2 section .section2 .section2-main-content > img {
+  width: 100%;
+  margin-bottom: 86px;
+}
+
+.body2 section .section2 .section2-main-content .title-text-textbox {
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+
+.body2 section .section2 .section2-main-content .title-text-textbox > h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.body2 section .section2 .section2-main-content .title-text-textbox > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles .profile-cards {
+  width: 296px;
+  margin-bottom: 68px;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles .profile-cards > img {
+  width: 180px;
+  margin-bottom: 24px;
+  margin-left: 58px;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles .profile-cards > h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #101D2D;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles .profile-cards > h4 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #5091EE;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.body2 section .section2 .section2-main-content .human-profiles .profile-cards > p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #627183;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.body2 section .section3 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.body2 section .section3 .section3-title-textbox {
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+
+.body2 section .section3 .section3-title-textbox > h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.body2 section .section3 .section3-title-textbox > p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 section .section3 .main-content .text-and-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 396px;
+}
+
+.body2 section .section3 .main-content .text-and-image > div {
+  width: 490px;
+  margin-top: 95px;
+}
+
+.body2 section .section3 .main-content .text-and-image > div > h4 {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 14px;
+  font-family: "Inter", sans-serif;
+  color: #101D2D;
+}
+
+.body2 section .section3 .main-content .text-and-image > div > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  color: #627183;
+}
+
 @media (max-width: 1600px) {
   .section3-main-content > img {
     margin-left: 0% !important;
@@ -710,12 +1004,12 @@ a {
 }
 
 @media (max-width: 480px) {
-  .header1 {
+  header {
     height: 80px;
     width: 100vw;
     position: fixed;
   }
-  .header1 > div {
+  header > div {
     width: 75%;
     height: 36px;
     margin: 0 auto;
@@ -724,10 +1018,10 @@ a {
     display: -ms-flexbox;
     display: flex;
   }
-  .header1 > div .header-list {
+  header > div .header-list {
     display: none;
   }
-  .header1 > div .burger-bar-icon {
+  header > div .burger-bar-icon {
     display: block;
     margin-right: 20px;
     height: 25px;
