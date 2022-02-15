@@ -134,6 +134,7 @@
                     }
                 }
                 & > img{
+                    margin-left: 10% !important;
                     width: 288px;
                 }
             }
@@ -250,8 +251,9 @@
                             height: 567px;
                             margin: 0 auto;
                             margin-bottom: 26px;
+                            border-radius: 4px;
                             .section6-card-main-text{
-                                margin-left: 24px;
+                                margin-left: 14px;
                                 & > h3{
                                     font-size: 16px;
                                 }

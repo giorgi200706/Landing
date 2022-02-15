@@ -843,6 +843,7 @@ a {
     font-size: 18px;
   }
   .section-first .section3 .section3-main-content > img {
+    margin-left: 10% !important;
     width: 288px;
   }
   .section-first .section4 .section4-hello {
@@ -961,9 +962,10 @@ a {
     height: 567px;
     margin: 0 auto;
     margin-bottom: 26px;
+    border-radius: 4px;
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text {
-    margin-left: 24px;
+    margin-left: 14px;
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text > h3 {
     font-size: 16px;
