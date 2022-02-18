@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,10 +18,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
 }
 
 blockquote, q {
@@ -67,6 +63,7 @@ header {
 header > div {
   width: 75%;
   height: 36px;
+  max-width: 1080px;
   margin: 0 auto;
   margin-top: 22px;
   display: -webkit-box;
@@ -716,6 +713,7 @@ header > div .burger-bar-icon {
   top: 0px;
   left: 50%;
   width: 75%;
+  max-width: 1100px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -804,11 +802,14 @@ header > div .burger-bar-icon {
 }
 
 .body2 section .section2 .section2-social-images {
+  width: 1080px;
+  margin: 0 auto;
   margin-bottom: 86px;
 }
 
 .body2 section .section2 .section2-social-images > img {
   width: 1080px;
+  height: 6px;
 }
 
 .body2 section .section2 .section2-social-images > div {
@@ -855,6 +856,7 @@ header > div .burger-bar-icon {
 
 .body2 section .section2 .section2-main-content > img {
   width: 100%;
+  height: 2px;
   margin-bottom: 86px;
 }
 
@@ -931,6 +933,7 @@ header > div .burger-bar-icon {
 
 .body2 section .section3 {
   width: 75%;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -983,6 +986,391 @@ header > div .burger-bar-icon {
   line-height: 30px;
   font-family: "Inter", sans-serif;
   color: #627183;
+}
+
+.body2 section .section3 > img {
+  width: 100%;
+  height: 2px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.body2 section .section4 {
+  width: 50%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.body2 section .section4 .section4-text1 {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.body2 section .section4 .section4-text1 > h4 {
+  font-family: "Playfair Display", serif;
+  line-height: 54px;
+  font-size: 44px;
+  margin-bottom: 14px;
+}
+
+.body2 section .section4 .section4-text1 > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+  color: #627183;
+}
+
+.body2 section .section4 > img {
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 47px;
+}
+
+.body2 section .section4 .section4-text2 {
+  width: 87%;
+  margin: 0 auto;
+  margin-bottom: 156px;
+}
+
+.body2 section .section4 .section4-text2 > h4 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.body2 section .section4 .section4-text2 > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+  color: #627183;
+}
+
+.body2 section .section4 .section4-text2 > ul > li {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: #627183;
+}
+
+.body2 section .section4 .section4-text2 > img {
+  width: 100%;
+  height: 2px;
+}
+
+.body2 section .section5 {
+  width: 50%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.body2 section .section5 .text {
+  margin-bottom: 83px;
+}
+
+.body2 section .section5 .text > h4 {
+  font-size: 44px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Playfair Display", serif;
+}
+
+.body2 section .section5 .text > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #627183;
+}
+
+.body2 section .section5 .list {
+  margin-bottom: 150px;
+}
+
+.body2 section .section5 .list > img {
+  width: 100%;
+  height: 1.5px;
+  margin-bottom: 20px;
+}
+
+.body2 section .section5 .list > div {
+  width: 94%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body2 section .section5 .list > div > p {
+  margin-bottom: 22px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101D2D;
+}
+
+.body2 section .section5 .list > div > img {
+  height: 24px;
+}
+
+.body2 footer {
+  width: 100%;
+  background-color: #101D2D;
+}
+
+.body2 footer .head {
+  width: 75%;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 180px;
+  background-color: #135CC5;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.body2 footer .head > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 62px;
+  padding-left: 48px;
+}
+
+.body2 footer .head > div > h4 {
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Playfair Display", serif;
+  color: #E2EEFF;
+}
+
+.body2 footer .head > div > h5 {
+  margin-top: 4px;
+  width: 188px;
+  height: 48px;
+  padding-left: 38px;
+  padding-top: 15px;
+  background-color: #2BBF96;
+  margin-right: 48px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  border-radius: 3px;
+}
+
+.body2 footer .main-content {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.body2 footer .main-content .main-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.body2 footer .main-content .main-content-list .first-list {
+  margin-right: 80px;
+}
+
+.body2 footer .main-content .main-content-list .first-list > img {
+  width: 30px;
+  margin-bottom: 18px;
+}
+
+.body2 footer .main-content .main-content-list .first-list > p {
+  color: #627183;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 footer .main-content .main-content-list .second-list > h4 {
+  color: #E7ECF2;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 11px;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 footer .main-content .main-content-list .second-list > h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  color: #95A4B4;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 footer .main-content .logos-and-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body2 footer .main-content .logos-and-contact .mini-list {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body2 footer .main-content .logos-and-contact .mini-list > h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  color: #627183;
+  font-family: "Inter", sans-serif;
+}
+
+.body2 footer .main-content .logos-and-contact .logos {
+  width: 114px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.body2 footer .main-content .logos-and-contact .logos > img {
+  width: 16px;
+  height: 16px;
+}
+
+.body3 header {
+  background-color: white;
+}
+
+.body3 header > div .header-list .a1 {
+  color: #2a2a2a;
+}
+
+.body3 section {
+  width: 44%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-top: 166px;
+}
+
+.body3 section > h3 {
+  font-size: 51px;
+  line-height: 62px;
+  color: #101D2D;
+  text-align: center;
+  margin-bottom: 51px;
+  font-family: "Playfair Display", serif;
+}
+
+.body3 section .sign-in {
+  width: 330px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body3 section .sign-in > input {
+  width: 330px;
+  height: 48px;
+  margin-bottom: 12px;
+  color: #95A4B4;
+  padding-left: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border: solid 1px #dbdbdb;
+}
+
+.body3 section .sign-in > button {
+  width: 330px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 24px;
+  background-color: #2174EA;
+  border: solid 1px #dbdbdb;
+  border-radius: 4px;
+}
+
+.body3 section .sign-in .diviko {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 31px;
+  margin-bottom: 36px;
+}
+
+.body3 section .sign-in .diviko > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: #95A4B4;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.body3 section .sign-in .diviko > a {
+  font-size: 16px;
+  color: #2174EA;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.body3 section .sign-in .divuniko {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.body3 section .sign-in .divuniko > p {
+  font-size: 16px;
+  color: #95A4B4;
+  font-family: "Inter", sans-serif;
+  margin-right: 6px;
+}
+
+.body3 section .sign-in .divuniko > a {
+  font-size: 16px;
+  color: #95A4B4;
+  font-family: "Inter", sans-serif;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2174EA;
 }
 
 @media (max-width: 1600px) {
