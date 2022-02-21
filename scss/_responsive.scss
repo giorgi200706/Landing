@@ -64,17 +64,15 @@
                     & > div{
                         flex-direction: column;
                         margin: 0 auto;
-                        & > h5{
+                        .but1{
                             margin: 0 auto;
                             width: 288px;
                             margin-bottom: 12px;
-                            padding-left: 79px;
                         }
-                        & > h6{
+                        .but2{
                             margin: 0 auto;
                             width: 288px;
                             margin-bottom: 12px;
-                            padding-left: 101px;
                         }
                     }
                 }
@@ -268,11 +266,8 @@
                                     }
                                 }
                             }
-                            & > h3{
+                            & > button{
                                 width: 240px;
-                                padding-left: 67px;
-                                padding-top: 13px;
-                                margin: 0 auto;
                                 border-radius: 2px;
                             }
                         }
@@ -569,8 +564,7 @@
                         width: 240px;
                         margin-bottom: 35px;
                     }
-                    & > h5{
-                       padding-left: 60px;
+                    & > button{
                        width: 240px;
                     }
                 }

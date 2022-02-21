@@ -1585,17 +1585,15 @@ header .header-container .header-list .a2:hover {
             flex-direction: column;
     margin: 0 auto;
   }
-  .section-first .section1 .section1-container .section1-container-textbox > div > h5 {
+  .section-first .section1 .section1-container .section1-container-textbox > div .but1 {
     margin: 0 auto;
     width: 288px;
     margin-bottom: 12px;
-    padding-left: 79px;
   }
-  .section-first .section1 .section1-container .section1-container-textbox > div > h6 {
+  .section-first .section1 .section1-container .section1-container-textbox > div .but2 {
     margin: 0 auto;
     width: 288px;
     margin-bottom: 12px;
-    padding-left: 101px;
   }
   .section-first .section1 .section1-container > img {
     width: 299px;
@@ -1796,11 +1794,8 @@ header .header-container .header-list .a2:hover {
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > img {
     width: 250px;
   }
-  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards > h3 {
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards > button {
     width: 240px;
-    padding-left: 67px;
-    padding-top: 13px;
-    margin: 0 auto;
     border-radius: 2px;
   }
   .footer1 {
@@ -2105,8 +2100,7 @@ header .header-container .header-list .a2:hover {
     width: 240px;
     margin-bottom: 35px;
   }
-  .body2 footer .head > div > h5 {
-    padding-left: 60px;
+  .body2 footer .head > div > button {
     width: 240px;
   }
   .body2 footer .main-content {
