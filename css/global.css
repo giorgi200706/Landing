@@ -60,7 +60,97 @@ header {
   z-index: 99;
 }
 
-header > div {
+header .container {
+  display: none;
+  position: relative;
+  /* listebis gastilva */
+  /* Burger icon styles */
+}
+
+header .container .nav-bar {
+  position: absolute;
+  background-color: #162231fb;
+  top: 0;
+  right: 100%;
+  height: 25vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .toggle {
+  left: 0;
+}
+
+header .container .nav-list-item {
+  text-align: center;
+  padding: 10px 0;
+  height: 52px;
+}
+
+header .container .nav-link {
+  font-size: 20px;
+  background-color: #135CC5;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+header .container .toggle-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2px 2px 2px 3px;
+  cursor: pointer;
+}
+
+header .container .line {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+header .container .toggle .line1 {
+  -webkit-transform: scale(0.9) rotate(-45deg) translate(-6px, 4px);
+          transform: scale(0.9) rotate(-45deg) translate(-6px, 4px);
+}
+
+header .container .toggle .line2 {
+  display: none;
+}
+
+header .container .toggle .line3 {
+  -webkit-transform: scale(0.9) rotate(45deg) translate(-6px, -4px);
+          transform: scale(0.9) rotate(45deg) translate(-6px, -4px);
+}
+
+header .header-container {
   width: 75%;
   height: 36px;
   max-width: 1080px;
@@ -74,7 +164,7 @@ header > div {
           justify-content: space-between;
 }
 
-header > div .header-list {
+header .header-container .header-list {
   width: 296px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,14 +174,14 @@ header > div .header-list {
           justify-content: space-between;
 }
 
-header > div .header-list .a1 {
+header .header-container .header-list .a1 {
   padding-top: 7px;
   font-size: 16px;
   color: #95A4B4;
   font-family: "Inter", sans-serif;
 }
 
-header > div .header-list .a2 {
+header .header-container .header-list .a2 {
   background-color: #2174EA;
   width: 106px;
   height: 36px;
@@ -102,10 +192,6 @@ header > div .header-list .a2 {
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-}
-
-header > div .burger-bar-icon {
-  display: none;
 }
 
 .section-first {
@@ -1422,7 +1508,7 @@ header > div .burger-bar-icon {
     width: 100vw;
     position: fixed;
   }
-  header > div {
+  header .header-container {
     width: 75%;
     height: 36px;
     margin: 0 auto;
@@ -1431,14 +1517,11 @@ header > div .burger-bar-icon {
     display: -ms-flexbox;
     display: flex;
   }
-  header > div .header-list {
+  header .header-container .header-list {
     display: none;
   }
-  header > div .burger-bar-icon {
+  header .container {
     display: block;
-    margin-right: 20px;
-    height: 25px;
-    margin-top: 5px;
   }
   .section-first {
     width: 100%;
