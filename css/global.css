@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 header {
   height: 80px;
   width: 100%;
@@ -195,6 +199,10 @@ header .header-container .header-list .a2 {
   font-weight: 500;
 }
 
+header .header-container .header-list .a2:hover {
+  background-color: #2175ead5;
+}
+
 .section-first {
   width: 100%;
   height: 755px;
@@ -256,29 +264,33 @@ header .header-container .header-list .a2 {
   display: flex;
 }
 
-.section-first .section1 .section1-container .section1-container-textbox > div > h5 {
+.section-first .section1 .section1-container .section1-container-textbox > div .but1 {
   width: 194px;
   height: 48px;
   color: white;
   font-size: 16px;
-  padding-top: 14px;
-  padding-left: 32px;
   margin-right: 8px;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #2174EA;
   font-family: "Inter", sans-serif;
 }
 
-.section-first .section1 .section1-container .section1-container-textbox > div > h6 {
+.section-first .section1 .section1-container .section1-container-textbox > div .but1:hover {
+  background-color: #2175ead5;
+}
+
+.section-first .section1 .section1-container .section1-container-textbox > div .but2 {
   width: 151px;
   height: 48px;
   color: white;
   font-size: 16px;
-  padding-top: 14px;
-  padding-left: 32px;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #58677A;
   font-family: "Inter", sans-serif;
+}
+
+.section-first .section1 .section1-container .section1-container-textbox > div .but2:hover {
+  background-color: #8b95a1d5;
 }
 
 .section-first .section1 .section1-container > img {
@@ -657,17 +669,19 @@ header .header-container .header-list .a2 {
   margin-top: 10px;
 }
 
-.section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards > h3 {
+.section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards > button {
   font-size: 16px;
   width: 296px;
   height: 48px;
-  padding-left: 81px;
-  padding-top: 12px;
   color: white;
   background-color: #2174EA;
   font-family: "Inter", sans-serif;
-  margin: 0 auto;
+  margin-left: 24px;
   border-radius: 4px;
+}
+
+.section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards button:hover {
+  background-color: #2062bef1;
 }
 
 .footer1 {
@@ -1266,18 +1280,20 @@ header .header-container .header-list .a2 {
   color: #E2EEFF;
 }
 
-.body2 footer .head > div > h5 {
+.body2 footer .head > div > button {
   margin-top: 4px;
   width: 188px;
   height: 48px;
-  padding-left: 38px;
-  padding-top: 15px;
   background-color: #2BBF96;
   margin-right: 48px;
   font-size: 16px;
   font-family: "Inter", sans-serif;
   color: white;
   border-radius: 3px;
+}
+
+.body2 footer .head > div button:hover {
+  background-color: #39b669d5;
 }
 
 .body2 footer .main-content {
@@ -1428,6 +1444,10 @@ header .header-container .header-list .a2 {
   background-color: #2174EA;
   border: solid 1px #dbdbdb;
   border-radius: 4px;
+}
+
+.body3 section .sign-in button:hover {
+  background-color: #1d65ca;
 }
 
 .body3 section .sign-in .diviko {
