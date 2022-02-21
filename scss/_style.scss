@@ -30,7 +30,7 @@ header{
         }
         
         .nav-link {
-            font-size: 20px;
+            font-size: 18px;
             background-color: #135CC5;
             border-radius: 6px;
             padding-left: 20px;
@@ -45,7 +45,7 @@ header{
         .toggle-menu {
             position: fixed;
             top: 20px;
-            right: 20px;
+            right: 40px;
             width: 40px;
             height: 30px;
             display: flex;
@@ -57,8 +57,9 @@ header{
         .line {
             width: 100%;
             height: 3px;
-            background-color: #000000;
+            background-color: #1d6edf;
             transition: transform 0.2s ease-out;
+            border-radius: 1.5px;
         }
         .toggle .line1 {
             transform: scale(0.9) rotate(-45deg) translate(-6px, 4px);

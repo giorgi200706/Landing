@@ -493,39 +493,167 @@
                 }
             }
             .section4{
+                width: 293px;
+                margin: 0 auto;
                 .section4-text1{
+                    width: 100%;
                     & > h4{
-
+                        font-size: 32px;
+                        line-height: 42px;
+                        margin-bottom: 16px;
                     }
                     & > p{
-
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-bottom: 65px;
                     }
                 }
                 & > img{
-
+                    width: 288px;
+                    margin: 0 auto;
+                    margin-bottom: 35px;
                 }
                 .section4-text2{
-                    & > h4{
-
-                    }
-                    & > p{
-
-                    }
-                    & > ul{
-                        & > li{
-
-                        }
-                    }
-                    & > p{
-                        
-                    }
-                    & > img{
-
-                    }
+                    width: 100%;
+                    margin-bottom: 55px;
                 }
             }
             .section5{
-
+                width: 292px;
+                margin: 0 auto;
+                .text{
+                    width: 100%;
+                    & > h4{
+                        font-size: 32px;
+                        line-height: 42px;
+                        margin-bottom: 8px;
+                    }
+                    & > p{
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-bottom: 50px;
+                    }
+                }
+                .list{
+                    width: 100%;
+                    & > img{
+                        width: 100%;
+                        height: 2px;
+                    }
+                    & > div{
+                        & > p{
+                            font-size: 18px;
+                        }
+                        & > img{
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            width: 100vw;
+            .head{
+                width: 288px;
+                height: 244px;
+                & > div{
+                    width: 240px;
+                    margin: 0 auto;
+                    flex-direction: column;
+                    padding-left: 0px;
+                    padding-top: 47px;
+                    & > h4{
+                        font-size: 24px;
+                        line-height: 34px;
+                        text-align: center;
+                        width: 240px;
+                        margin-bottom: 35px;
+                    }
+                    & > h5{
+                       padding-left: 60px;
+                       width: 240px;
+                    }
+                }
+            }
+            .main-content{
+                width: 288px;
+                transform: translateY(-10%);
+                .main-content-list{
+                    flex-direction: column;
+                    margin-bottom: 0px;
+                    .first-list{
+                        margin: 0 auto;
+                        margin-bottom: 30px;
+                        & > img{
+                            margin-left: 55px;
+                        }
+                        & > p{
+                            text-align: center;
+                        }
+                    }
+                    .second-list{
+                        margin-bottom: 40px;
+                        & > h4{
+                            text-align: center;
+                        }
+                        & > h5{
+                            text-align: center;
+                        }
+                    }
+                }
+                .logos-and-contact{
+                    flex-direction: column;
+                    .logos{
+                        margin: 0 auto;
+                        margin-top: 20px;
+                        width: 170px;
+                        & > img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .body3{
+        width: 100%;
+        header{
+            height: 80px;
+            width: 100vw;
+            position: fixed;
+            .header-container{
+                width: 75%;
+                height: 36px;
+                margin: 0 auto;
+                margin-top: 22px;
+                display: flex;
+                .header-list{
+                    display: none;
+                }
+            }
+            .container{
+                display: block;
+            }
+        }
+        section{
+            width: 288px;
+            margin: 0 auto;
+            & > h3{
+                font-size: 44px;
+                line-height: 54px;
+                margin-bottom: 37px;
+            }
+            .sign-in{
+                width: 288px;
+                margin: 0 auto;
+                & > input{
+                    width: 288px;
+                }
+                & > button{
+                    width: 288px;
+                    margin-top: 5px;
+                }
             }
         }
     }
