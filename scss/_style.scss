@@ -111,11 +111,11 @@ header{
 }
 .section-first{
     width: 100%;
-    height: 755px;
     .section1{
         padding-top: 80px;
         position: relative;
         margin-bottom: 80px;
+        height: 755px;
         .section1-background-image{
             width: 100%;
             height: 675px;
@@ -256,7 +256,8 @@ header{
                 }
             }
             & > img{
-                margin-left: 10%;
+                width: 100%;
+                margin:  0 auto;
             }
         }
     }
@@ -456,7 +457,7 @@ header{
                                 margin-bottom: 27px;
                             }
                             .section6-cards-main-text-list{
-                                margin-bottom: 32px;
+                                padding-bottom: 32px;
                                 & > div{
                                     display: flex;
                                     & > h5{
@@ -505,7 +506,6 @@ header{
             margin: 0 auto;
             height: 180px;
             background-color: #135CC5;
-            margin-top: 4940px;
             & > div{
                 width: 91.1%;
                 margin: 0 auto;
@@ -807,12 +807,14 @@ header{
                             margin-bottom: 14px;
                             font-family: $inter-font;
                             color: #101D2D;
+                            text-align: right;
                         }
                         & > p{
                             font-size: 20px;
                             line-height: 30px;
                             font-family: $inter-font;
                             color: #627183;
+                            text-align: right;
                         }
                     }
                 }
@@ -923,8 +925,15 @@ header{
                         line-height: 28px;
                         color: #101D2D;
                     }
-                    & > img{
-                        height: 24px;
+                    & > button{
+                        border: 0;
+                        background-color: white;
+                        & > img{
+                            height: 24px;
+                        }
+                    }
+                    button:hover{
+                        border: 2px solid grey;
                     }
                 }
             }

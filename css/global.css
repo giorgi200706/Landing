@@ -205,13 +205,13 @@ header .header-container .header-list .a2:hover {
 
 .section-first {
   width: 100%;
-  height: 755px;
 }
 
 .section-first .section1 {
   padding-top: 80px;
   position: relative;
   margin-bottom: 80px;
+  height: 755px;
 }
 
 .section-first .section1 .section1-background-image {
@@ -397,7 +397,8 @@ header .header-container .header-list .a2:hover {
 }
 
 .section-first .section3 .section3-main-content > img {
-  margin-left: 10%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .section-first .section4 {
@@ -647,7 +648,7 @@ header .header-container .header-list .a2:hover {
 }
 
 .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > div {
@@ -700,7 +701,6 @@ header .header-container .header-list .a2:hover {
   margin: 0 auto;
   height: 180px;
   background-color: #135CC5;
-  margin-top: 4940px;
 }
 
 .footer1 .footer-div .footer-main-content > div {
@@ -1105,6 +1105,7 @@ header .header-container .header-list .a2:hover {
   margin-bottom: 14px;
   font-family: "Inter", sans-serif;
   color: #101D2D;
+  text-align: right;
 }
 
 .body2 section .section3 .main-content .text-and-image2 > div > p {
@@ -1112,6 +1113,7 @@ header .header-container .header-list .a2:hover {
   line-height: 30px;
   font-family: "Inter", sans-serif;
   color: #627183;
+  text-align: right;
 }
 
 .body2 section .section3 > img {
@@ -1243,8 +1245,17 @@ header .header-container .header-list .a2:hover {
   color: #101D2D;
 }
 
-.body2 section .section5 .list > div > img {
+.body2 section .section5 .list > div > button {
+  border: 0;
+  background-color: white;
+}
+
+.body2 section .section5 .list > div > button > img {
   height: 24px;
+}
+
+.body2 section .section5 .list > div button:hover {
+  border: 2px solid grey;
 }
 
 .body2 footer {
@@ -1503,24 +1514,6 @@ header .header-container .header-list .a2:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2174EA;
-}
-
-@media (max-width: 1600px) {
-  .section3-main-content > img {
-    margin-left: 0% !important;
-  }
-}
-
-@media (max-width: 1366px) {
-  .section3-main-content > img {
-    margin-left: -13% !important;
-  }
-}
-
-@media (max-width: 1150px) {
-  .section3-main-content > img {
-    margin-left: -18% !important;
-  }
 }
 
 @media (max-width: 480px) {
@@ -1825,7 +1818,7 @@ header .header-container .header-list .a2:hover {
     margin-bottom: 45px;
   }
   .footer1 .footer-div .footer-main-content > div > input {
-    width: 240px;
+    width: 215px;
     border: 0px;
     border-radius: 3px;
   }
@@ -2175,6 +2168,8 @@ header .header-container .header-list .a2:hover {
   .body3 section {
     width: 288px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 130px;
   }
   .body3 section > h3 {
     font-size: 44px;
