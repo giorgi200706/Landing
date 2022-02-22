@@ -1541,6 +1541,9 @@ header .header-container .header-list .a2:hover {
     width: 100%;
     height: auto;
   }
+  .section-first .section1 {
+    height: 950px;
+  }
   .section-first .section1 .section1-background-image {
     width: 100%;
     height: 950px;
@@ -1774,7 +1777,6 @@ header .header-container .header-list .a2:hover {
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list {
     margin: 0 auto;
-    margin-bottom: 32px;
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > div {
     display: -webkit-box;

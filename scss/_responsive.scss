@@ -21,6 +21,7 @@
         width: 100%;
         height: auto;
         .section1{
+            height: 950px; 
             .section1-background-image{
                 width: 100%;
                 height: 950px;
@@ -239,7 +240,6 @@
                                 }
                                 .section6-cards-main-text-list{
                                     margin: 0 auto;
-                                    margin-bottom: 32px;
                                     & > div{
                                         display: flex;
                                         & > img{
