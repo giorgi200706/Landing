@@ -133,6 +133,7 @@ header{
             transform: translateX(-50%);
             .section1-container-textbox{
                 width: 488px;
+                margin-right: 15px;
                 & > h4{
                     font-family: $playfair-font;
                     color: #E7ECF2;
@@ -651,39 +652,39 @@ header{
         width: 75%;
         margin: 0 auto;
         .section2-social-images{
-            width: 1080px;
+            width: 100%;
             margin: 0 auto;
             margin-bottom: 86px;
             & > img{
-                width: 1080px;
+                width: 100%;
                 height: 6px;
             }
             & > div{
                 margin: 0 auto;
-                width: 819px;
+                width: 92%;
                 margin-top: 36px;
                 margin-bottom: 38px;
                 display: flex;
                 justify-content: space-between;
                 .image-1{
-                    width: 123px;
-                    height: 24px;
+                    width: 14%;
+                    height: 30px;
                 }
                 .image-2{
-                    width: 83px;
-                    height: 30px;
+                    width: 10%;
+                    height: 36px;
                 }
                 .image-3{
-                    width: 125px;
-                    height: 30px;
+                    width: 14%;
+                    height: 36px;
                 }
                 .image-4{
-                    width: 150px;
-                    height: 30px;
+                    width: 17%;
+                    height: 36px;
                 }
                 .image-5{
-                    width: 113px;
-                    height: 30px;
+                    width: 13%;
+                    height: 36px;
                 }
             }
         }

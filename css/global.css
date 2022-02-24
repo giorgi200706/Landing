@@ -239,6 +239,7 @@ header .header-container .header-list .a2:hover {
 
 .section-first .section1 .section1-container .section1-container-textbox {
   width: 488px;
+  margin-right: 15px;
 }
 
 .section-first .section1 .section1-container .section1-container-textbox > h4 {
@@ -902,19 +903,19 @@ header .header-container .header-list .a2:hover {
 }
 
 .body2 section .section2 .section2-social-images {
-  width: 1080px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 86px;
 }
 
 .body2 section .section2 .section2-social-images > img {
-  width: 1080px;
+  width: 100%;
   height: 6px;
 }
 
 .body2 section .section2 .section2-social-images > div {
   margin: 0 auto;
-  width: 819px;
+  width: 92%;
   margin-top: 36px;
   margin-bottom: 38px;
   display: -webkit-box;
@@ -926,28 +927,28 @@ header .header-container .header-list .a2:hover {
 }
 
 .body2 section .section2 .section2-social-images > div .image-1 {
-  width: 123px;
-  height: 24px;
+  width: 14%;
+  height: 30px;
 }
 
 .body2 section .section2 .section2-social-images > div .image-2 {
-  width: 83px;
-  height: 30px;
+  width: 10%;
+  height: 36px;
 }
 
 .body2 section .section2 .section2-social-images > div .image-3 {
-  width: 125px;
-  height: 30px;
+  width: 14%;
+  height: 36px;
 }
 
 .body2 section .section2 .section2-social-images > div .image-4 {
-  width: 150px;
-  height: 30px;
+  width: 17%;
+  height: 36px;
 }
 
 .body2 section .section2 .section2-social-images > div .image-5 {
-  width: 113px;
-  height: 30px;
+  width: 13%;
+  height: 36px;
 }
 
 .body2 section .section2 .section2-main-content {
@@ -1516,6 +1517,129 @@ header .header-container .header-list .a2:hover {
   color: #2174EA;
 }
 
+@media (max-width: 1424px) {
+  .section-first .section4 .section4-hello .section4-main-content .section4-card {
+    width: 290px;
+    height: 445px;
+  }
+  .section-first .section4 .section4-hello .section4-main-content .section4-card > img {
+    width: 290px;
+    margin-bottom: 18px;
+  }
+  .section-first .section4 .section4-hello .section4-main-content .section4-card > h5 {
+    font-size: 21px;
+    margin-left: 18px;
+  }
+  .section-first .section4 .section4-hello .section4-main-content .section4-card > p {
+    font-size: 13px;
+    margin-left: 18px;
+    width: 254px;
+  }
+  .section-first .section4 .section4-hello .section4-main-content .section4-card .section4-card-minitext {
+    width: 100px;
+    margin-bottom: 0px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards {
+    width: 290px;
+    height: 486px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-price {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-price > img {
+    width: 89px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-price > p {
+    margin: 5px;
+    margin-left: 0px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text {
+    margin-left: 15px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text > h3 {
+    margin-bottom: 10px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list {
+    padding-bottom: 20px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > img {
+    width: 260px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > div > img {
+    width: 22px;
+    height: 22px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards .section6-card-main-text .section6-cards-main-text-list > div > h5 {
+    font-size: 15px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards > button {
+    width: 242px;
+    height: 40px;
+  }
+  .body2 section .section1 > div .section1-card-list .section1-card {
+    width: 290px;
+    height: 367px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+  }
+  .body2 section .section1 > div .section1-card-list .section1-card > img {
+    width: 40px;
+    margin-top: 20px;
+  }
+  .body2 section .section1 > div .section1-card-list .section1-card > p {
+    width: 250px;
+    font-size: 15.1px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .body2 section .section1 > div .section1-card-list .section1-card > div > img {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .body2 section .section1 > div .section1-card-list .section1-card > div > div {
+    margin-left: 20px;
+  }
+  .body2 section .section3 .main-content .text-and-image > img {
+    width: 400px;
+  }
+  .body2 section .section3 .main-content .text-and-image2 > img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-first .section4 .section4-hello .section4-main-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section-first .section4 .section4-hello .section4-main-content .section4-card {
+    margin-right: 10px;
+    margin-bottom: 25px;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards {
+    margin-bottom: 25px;
+  }
+  .body2 section .section1 > img {
+    height: 1000px;
+  }
+  .body2 section .section1 > div .section1-card-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 480px) {
   header {
     height: 80px;
@@ -1669,30 +1793,11 @@ header .header-container .header-list .a2:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 auto;
+    margin-top: 40px;
   }
   .section-first .section4 .section4-hello .section4-main-content .section4-card {
-    width: 288px;
-    height: 558px;
     margin: 0 auto;
-    margin-bottom: 16px;
-  }
-  .section-first .section4 .section4-hello .section4-main-content .section4-card > img {
-    width: 288px;
-  }
-  .section-first .section4 .section4-hello .section4-main-content .section4-card > h5 {
-    width: 241px;
-    margin: 0 auto;
-    margin-bottom: 44px;
-    text-align: center;
-  }
-  .section-first .section4 .section4-hello .section4-main-content .section4-card > p {
-    width: 241px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  .section-first .section4 .section4-hello .section4-main-content .section4-card .section4-card-minitext {
-    width: 241px;
-    font-size: 16px;
+    margin-bottom: 25px;
   }
   .section-first .section5 .section5-div {
     width: 90%;
@@ -1764,7 +1869,7 @@ header .header-container .header-list .a2:hover {
   }
   .section-first .section6 .section6-div .section6-main-content .section6-card-list .section6-cards {
     width: 288px;
-    height: 567px;
+    height: 500px;
     margin: 0 auto;
     margin-bottom: 26px;
     border-radius: 4px;
@@ -1927,6 +2032,21 @@ header .header-container .header-list .a2:hover {
   .body2 section .section2 .section2-social-images > div > img {
     margin: 0 auto;
     margin-bottom: 24px;
+  }
+  .body2 section .section2 .section2-social-images > div .image-1 {
+    width: 130px;
+  }
+  .body2 section .section2 .section2-social-images > div .image-2 {
+    width: 120px;
+  }
+  .body2 section .section2 .section2-social-images > div .image-3 {
+    width: 150px;
+  }
+  .body2 section .section2 .section2-social-images > div .image-4 {
+    width: 150px;
+  }
+  .body2 section .section2 .section2-social-images > div .image-5 {
+    width: 130px;
   }
   .body2 section .section2 .section2-main-content .title-text-textbox {
     width: 288px;
