@@ -185,30 +185,49 @@ header{
         }
     }
     .section2{
-        width: 75%;
+        width: 65%;
         max-width: 1080px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
         margin: 0 auto;
-        padding-bottom: 86px;
-        & > div{
-            width: 317px;
-            margin-bottom: 68px;
-            & > img{
-                margin-bottom: 17px;
+        padding-left: 15px;
+        .controller{
+            margin-bottom: 100px;
+            z-index: 1;
+            .controls{
+                width: 130px;
+                margin: 0 auto;
+                & > button{
+                    padding: 0;
+                    border: none;
+                    background: none;
+                    & > i{
+                        width: 60px;
+                        height: 20px;
+                    }
+                }
             }
-            & > h4{
-                font-size: 24px;
-                color: #101D2D;
-                font-family: $playfair-font;
-                margin-bottom: 10px;
-            }
-            & > p{
-                font-size: 18px;
-                color: #627183;
-                font-family: $inter-font;
-                line-height: 32px;
+        }
+        .section2-my-slider{
+            margin: 0 auto;
+            .slide{
+                & > div{
+                    width: 235px;
+                    margin-bottom: 68px;
+                    & > img{
+                        margin-bottom: 17px;
+                    }
+                    & > h4{
+                        font-size: 22px;
+                        color: #101D2D;
+                        font-family: $playfair-font;
+                        margin-bottom: 10px;
+                    }
+                    & > p{
+                        font-size: 16px;
+                        color: #627183;
+                        font-family: $inter-font;
+                        line-height: 32px;
+                    }
+                }
             }
         }
     }
@@ -296,9 +315,11 @@ header{
                     background-color: white;
                     width: 344px;
                     height: 528px;
+                    border-radius: 8px;
                     box-shadow: 6px 7px 15px 2px rgba(146,134,134,0.24);
                     & > img{
                         margin-bottom: 24px;
+                        border-radius: 8px 8px 0px 0px;
                     }
                     & > h5{
                         width: 296px;
@@ -315,12 +336,19 @@ header{
                         font-family: $inter-font;
                         line-height: 28px;
                         color: #627183;
+                        #more{
+                            display: none;
+                        }
                     }
-                    .section4-card-minitext{
-                        width: 296px;
-                        font-size: 16px;
+                    .section4-card-button{
+                        margin-left: 20px;
+                        padding: 0;
+                        border: none;
+                        background: none;
+                        font-size: 14px;
                         font-family: $inter-font;
-                        color: #101D2D;
+                        color: #000025;
+                        text-decoration: underline;
                     }
                     
                 }

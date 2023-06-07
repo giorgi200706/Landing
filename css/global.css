@@ -300,38 +300,55 @@ header .header-container .header-list .a2:hover {
 }
 
 .section-first .section2 {
-  width: 75%;
+  width: 65%;
   max-width: 1080px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: 0 auto;
-  padding-bottom: 86px;
+  padding-left: 15px;
 }
 
-.section-first .section2 > div {
-  width: 317px;
+.section-first .section2 .controller {
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+.section-first .section2 .controller .controls {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.section-first .section2 .controller .controls > button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.section-first .section2 .controller .controls > button > i {
+  width: 60px;
+  height: 20px;
+}
+
+.section-first .section2 .section2-my-slider {
+  margin: 0 auto;
+}
+
+.section-first .section2 .section2-my-slider .slide > div {
+  width: 235px;
   margin-bottom: 68px;
 }
 
-.section-first .section2 > div > img {
+.section-first .section2 .section2-my-slider .slide > div > img {
   margin-bottom: 17px;
 }
 
-.section-first .section2 > div > h4 {
-  font-size: 24px;
+.section-first .section2 .section2-my-slider .slide > div > h4 {
+  font-size: 22px;
   color: #101D2D;
   font-family: "Playfair Display", serif;
   margin-bottom: 10px;
 }
 
-.section-first .section2 > div > p {
-  font-size: 18px;
+.section-first .section2 .section2-my-slider .slide > div > p {
+  font-size: 16px;
   color: #627183;
   font-family: "Inter", sans-serif;
   line-height: 32px;
@@ -449,12 +466,14 @@ header .header-container .header-list .a2:hover {
   background-color: white;
   width: 344px;
   height: 528px;
+  border-radius: 8px;
   -webkit-box-shadow: 6px 7px 15px 2px rgba(146, 134, 134, 0.24);
           box-shadow: 6px 7px 15px 2px rgba(146, 134, 134, 0.24);
 }
 
 .section-first .section4 .section4-hello .section4-main-content .section4-card > img {
   margin-bottom: 24px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .section-first .section4 .section4-hello .section4-main-content .section4-card > h5 {
@@ -475,11 +494,19 @@ header .header-container .header-list .a2:hover {
   color: #627183;
 }
 
-.section-first .section4 .section4-hello .section4-main-content .section4-card .section4-card-minitext {
-  width: 296px;
-  font-size: 16px;
+.section-first .section4 .section4-hello .section4-main-content .section4-card > p #more {
+  display: none;
+}
+
+.section-first .section4 .section4-hello .section4-main-content .section4-card .section4-card-button {
+  margin-left: 20px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
-  color: #101D2D;
+  color: #000025;
+  text-decoration: underline;
 }
 
 .section-first .section5 {
